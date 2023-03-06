@@ -1,0 +1,392 @@
+* {
+    background-color: #0000;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+}
+
+header {
+    display: flex;
+    height: 54px;
+    padding: 0px 75.95px;
+    z-index: 502;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+header .im1 {
+    width: 108px;
+    margin-top: -3px;
+    max-width: none;
+}
+
+header .log {
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-top: -3;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+}
+
+header li a {
+    border: 1px solid transparent;
+    color: #262626;
+    display: inline-block;
+    padding: 16px 8px 10px;
+}
+
+header li a:hover {
+    text-decoration: underline 2px;
+}
+
+header a {
+    text-decoration: none;
+    margin: 0px;
+    padding: 16px;
+}
+
+header nav {
+    overflow: hidden;
+    height: 100%;
+    white-space: nowrap;
+}
+
+header .blank {
+    padding-right: 454px;
+    visibility: hidden;
+}
+
+header button {
+    border: none;
+    padding: 16px 8px 10px;
+}
+
+header .pos {
+    position: absolute;
+}
+
+.lmore {
+    background-color: black;
+    padding: 10px 12px;
+    color: white;
+    font-weight: 400;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 8px 0px;
+    text-decoration: none;
+}
+
+.container1 {
+    margin: 50px;
+}
+
+
+.sp1 {
+    height: 500px;
+    padding: 70px;
+    align-items: center;
+    width: 100%;
+    background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-All-Colors-FY23HOL:VP4-1399x600') no-repeat center center/cover;
+    cursor: pointer;
+}
+
+
+
+.container1 h1 {
+    font-size: 29px;
+    margin-bottom: 16px;
+}
+
+.container1 p {
+    width: 298px;
+    margin-bottom: 24px;
+}
+
+.container2 {
+    padding: 0px 58.87px;
+    margin-bottom: 16px;
+}
+
+.container2 ul {
+    display: flex;
+    justify-content: center;
+}
+
+.container2 li{
+    list-style: none;
+    margin: 16px 24px;
+}
+
+.container2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container2 a{
+    text-decoration: none;
+    color: #262626;
+    text-decoration: underline 2px;
+    font-weight: 600;   
+}
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    min-width: 1px;
+    word-wrap: break-word;
+    background-clip: border-box;
+}
+
+.c1 {
+    color: #950c17;
+    background-color: #ffff;
+    padding: 6px 12px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.body2{
+    display: flex;
+    padding: 0px 75.95px;
+}
+
+.body2 img,p{
+    width: 323.81px;
+}
+
+.body2 .sl1,h2{
+    width: 323.81;
+    cursor: pointer;
+}
+
+.body2 h2{
+    padding-bottom: 16px;
+    font-size: 29px;
+    font-weight: 550;
+
+}
+
+.sl1 a:hover{
+    text-decoration: underline;
+}
+
+.span1,.span2{
+    padding-top: 16px;
+}
+
+.span1 span{
+    display: inline-block;
+    padding: 0.375em 0.75em;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+    vertical-align: top;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    background-color: #950c17;
+    color: #FFFFFF;
+}
+
+.span2 span{
+    display: inline-block;
+    padding: 0.375em 0.75em;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+    vertical-align: top;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    visibility: hidden;
+}
+
+.sl1{
+    margin-right: 12px;
+}
+
+.a1{
+    padding-top: 16px;
+}
+
+.a1 a , .a2 a{
+    color: #950c17;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+    padding-right: 1.3125em
+}
+
+.a2 a {
+    color: #950c17;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+    padding-right: 1.3125em
+    
+}
+
+picture{
+    font-size: 100px;
+}
+
+.body3{
+    padding: 0px 75.95px;
+}
+
+.d1{
+    background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-MSFT-hero-Edge:VP5-1596x600') no-repeat center center/cover;
+    height: 514.01px;
+    padding : 126px 48px;
+}
+
+.d2{
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+    width: 455.75px;
+}
+
+.d2 h2{
+    margin-bottom: 20px;
+    font-size: 37px;
+    font-weight: 500;
+}
+
+.d2 p{
+    margin-bottom: 24px;
+}
+
+.d2 a{
+    text-decoration: none;
+    padding:10px 12px;
+    margin: 8px 0px;
+    color: #ffffff;
+    background-color: #000000;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.hero{
+    display: block;
+}
+
+.B1{
+    margin-bottom: 20px;
+    padding-left: 76px;
+}
+
+.B1 h2{
+    font-size: 37px;
+    font-weight: 600;
+}
+
+.empty{
+    line-height: 71px;
+    visibility: hidden;
+}
+
+.container3{
+    padding: 0% 5%;
+    display: flex;
+    align-items: center;
+}
+
+.t1{
+    padding-right: 12px;
+    font-size: 16px;
+}
+
+.container3 img{
+    width: 32px;
+    margin-right: 12px;
+}
+
+footer{
+    background-color: #f2f2f2;
+    padding: 0% 5%;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    color: #616161;
+    
+}
+
+.f1{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.f1 h2{
+    padding-top: 36px;
+    padding-bottom: 4px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.f1 li{
+    list-style: none;
+    width: 203.88px;
+    padding: 8px 0px;
+    line-height: 1;
+}
+
+.f1 a{
+    color: #616161;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.f1 a:hover{
+    text-decoration: underline;
+}
+
+.f2{
+    padding: 30px 63px  16px;
+    font-size: 12px;
+    display: flex;
+}
+
+.f2 a{
+    padding-bottom: 4px;
+    padding-right: 24px;
+    text-decoration: none;
+    color: #616161;
+}
+
+.lval{
+    display: flex;
+    align-items: flex-end;
+
+}
